@@ -143,6 +143,3 @@ huggingface_service = HuggingFaceService()
 
 def generate_text_hf(prompt: str, max_tokens: int = 50, temperature: float = 0.7) -> str:
     return huggingface_service.generate_text(prompt, max_tokens, temperature)
-
-
-
